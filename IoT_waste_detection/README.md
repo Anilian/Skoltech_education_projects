@@ -5,7 +5,7 @@ This can be done by following the instructions in the [notepad](https://github.c
 ### 1.2 Labeling own photo 
 Using computer vision annotation [tool](https://app.cvat.ai/tasks?page=1) 300 photos were labeled
 
-<img src = "https://github.com/Anilian/Skoltech_education_projects/tree/main/IoT_waste_detection/cvat_label.png" width="300" height="300" />
+<img src = "https://github.com/Anilian/Skoltech_education_projects/blob/main/IoT_waste_detection/cvat_label.png" width="300" height="300" />
 
 ### 1.3 Dataset organization of YOLOv8 ###
 The structure of the google.drive file org chart
@@ -31,18 +31,17 @@ The [notebook](https://github.com/Anilian/Skoltech_education_projects/tree/main/
 Additional training files [yolov8x-seg_custom.yaml](https://github.com/Anilian/Skoltech_education_projects/tree/main/IoT_waste_detection/yolov8x-seg_custom.yaml),[custom_data.yaml](https://github.com/Anilian/Skoltech_education_projects/tree/main/IoT_waste_detection/custom_data%20(1).yaml)
 
 Using a step-by-step guide we trained the model on 50 epochs. It took about 25 minutes and obtained the following metrics.
-
-<img src = "https://github.com/Anilian/Skoltech_education_projects/tree/main/IoT_waste_detection/results.png" width="800" height="300" />
+<img src = "https://github.com/Anilian/Skoltech_education_projects/blob/main/IoT_waste_detection/results.png" width="800" height="300" />
 
 The predictions on the test sample showed excellent results
 
-<img src = "https://github.com/Anilian/Skoltech_education_projects/tree/main/IoT_waste_detection/228.jpg" width="300" height="300" />
+<img src = "https://github.com/Anilian/Skoltech_education_projects/blob/main/IoT_waste_detection/228.jpg" width="300" height="300" />
 
 ## 3.Testing using an industrial camera ##
-The project was implemented to detect garbage at a rate of 10FPS using the computer's GPU. The notepad is located [here](https://github.com/Anilian/Skoltech_education_projects/tree/main/IoT_waste_detection/Waste%20Management%20System.ipynb). 
+The project was implemented to detect garbage at a rate of 10FPS using the computer's GPU. The notepad is located [here](https://github.com/Anilian/Skoltech_education_projects/blob/main/IoT_waste_detection/Waste%20Management%20System.ipynb). 
 The task was as follows: to get the coordinates of one of the 5 areas on one track on which the garbage is moving. 
 
-<img src="https://github.com/Anilian/my_education/blob/main/YOLO/Slow%20test.gif" alt="My Project GIF" width="300" height="300" />
+<img src="https://github.com/Anilian/Skoltech_education_projects/blob/main/IoT_waste_detection/Slow%20test.gif" alt="My Project GIF" width="300" height="300" />
 
 It was also found that the time of detection of objects in one frame depends on the speed of movement of objects
-<img src = "https://github.com/Anilian/Skoltech_education_projects/tree/main/IoT_waste_detection/Analysis%20and%20Display%20time.png" width="300" height="300" />
+<img src = "https://github.com/Anilian/Skoltech_education_projects/blob/main/IoT_waste_detection/Analysis%20and%20Display%20time.png" width="300" height="300" />
