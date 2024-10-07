@@ -1,1 +1,6 @@
-# Skoltex_education_projects
+This repository contains educational data science projects that I completed during my Master's degree in Systems Engineering:
+* Folder [CRAFT_text_recognizing](https://github.com/Anilian/Skoltech_education_projects/tree/main/CRAFT_text_recognizing) - processing the dataset from the S3 repository, using the CRAFT model to find text in the images and then formatting the dataset;
+* Folder [DL_course](https://github.com/Anilian/Skoltech_education_projects/tree/main/DL_course) - homework assignments and final project for the semester DL course, which covers Voice classification, image detection and GANs image generation.
+* Folder [IoT_waste_detection](https://github.com/Anilian/Skoltech_education_projects/tree/main/IoT_waste_detection) - YOLOv8 training project for plastic and paper detection on the conveyor belt;
+* Folder [ML_course](https://github.com/Anilian/Skoltech_education_projects/tree/main/ML_course) -  homework assignments and final project for the semester ML course;
+* Folder [Python-Algorithm-Stepik](https://github.com/Anilian/Skoltech_education_projects/tree/main/Python-Algorithm-Stepik)  - solving several algorithms from the course on Stepik "Algorithms: Theory and Practice. Methods."
